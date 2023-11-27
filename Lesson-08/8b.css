@@ -1,0 +1,9 @@
+.para {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.yes-no {
+    vertical-align: middle;
+}
