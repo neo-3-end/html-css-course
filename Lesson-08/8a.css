@@ -1,0 +1,12 @@
+.name {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.email {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}

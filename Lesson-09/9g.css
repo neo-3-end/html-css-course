@@ -1,0 +1,44 @@
+.add-friend {
+    width: 200px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.mutual-friends {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    color: rgb(96, 96, 96);
+}
+
+.friend {
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 92, 184);
+    color: white;
+    margin-bottom: 10px;
+}
