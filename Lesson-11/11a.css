@@ -1,0 +1,12 @@
+.exe-grid {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.div-one {
+    background-color: lightblue;
+}
+
+.div-two{
+    background-color: lightpink;
+}
