@@ -1,0 +1,66 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inbox {
+    border: none;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 460px;
+}
+
+.inbox-type {
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: grey;
+}
+
+.mail-preview {
+    display: flex;
+    align-items: center;
+}
+
+.prof-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.mail-details {
+    margin-bottom: 25px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.time {
+    color: grey;
+    font-size: 14px;
+}
+
+.subject {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.email-preview {
+    color: grey;
+    font-size: 18px;
+}
