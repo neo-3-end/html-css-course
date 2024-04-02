@@ -8,10 +8,10 @@
     background-color: lightpink;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.inside-div {
-    flex: 1;
+.inside-div1 {
     background-color: black;
     color: white;
 }
