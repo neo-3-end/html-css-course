@@ -9,18 +9,22 @@ body {
 .sidebar {
     background-color: green;
     color: white;
+
+    width: 100px;
+
     position: fixed;
     right: 0;
     bottom: 0;
     top: 0;
-    width: 100px;
 }
 
 .overlay {
     display: flex;
     justify-content: center;
     align-items: center;
+
     background-color: rgba(0, 0, 0, 0.8);
+
     position: fixed;
     top: 0;
     bottom: 0;
@@ -44,6 +48,7 @@ body {
 .modal-heading {
     font-weight: bold;
     font-size: 26px;
+
     margin-left: 16px;
     margin-top: 18px;
 }
