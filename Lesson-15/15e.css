@@ -1,0 +1,32 @@
+body {
+    height: 3000px;
+}
+
+div {
+    font-family: Arial;
+}
+
+.display-item {
+    position: relative;
+    display: inline-block;
+}
+
+.item-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.discount {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+
+    background-color: black;
+    color: white;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
